@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'CalculatorApp';
+ // title = 'CalculatorApp';
+  title ="Sophos Test Login"
 }
