@@ -8,6 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AuthGuard } from './auth.guard';
 import { Routes, RouterModule } from '@angular/router';
+import { IpAddressComponent } from './ip-address/ip-address.component';
+import { LodashComponent } from './lodash/lodash.component';
 
 
 
@@ -21,7 +23,9 @@ const appRoutes: Routes = [
     AppComponent,
     CalculatorComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    IpAddressComponent,
+    LodashComponent
   ],
   imports: [
     BrowserModule,
